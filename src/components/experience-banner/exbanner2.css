@@ -1,0 +1,67 @@
+.container-large2{
+    width: 100%;
+    margin: 0 auto;
+    background: #FFF8F5;
+    display: flex;
+     align-items: center; 
+    justify-content: center;
+    height: 750px;
+
+}
+
+.container-exp2 > .container-exp{
+    width: 65%;
+    height: 745px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    color: white;
+}
+.image2{
+    align-self: flex-end;
+    width: 700px;
+    height: 600px;
+    background: url(../../assets/experience/Ellipse\ 7.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 500px; */
+}
+.top2 h1{
+    font-weight: 450;
+    font-size: 48px;
+    color: #242120;
+}
+.details-vendor{
+    padding: 5px;
+    color: #FF5C00;
+    border: 1px solid rgba(255, 92, 0, 0.4);
+    width: 100px;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.middle2 h3{
+    width: 400px;
+    height: 216px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #242120;
+}
+.last2{
+    width: 270px;
+    margin-top: 50px;
+}
+.last2 h3{
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #FF5C00;
+}

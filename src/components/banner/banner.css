@@ -1,0 +1,126 @@
+.container-banner{
+    position: relative;
+    
+
+    width: 60%;
+    height: 811px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.detail{
+    margin-bottom: 100px;
+   
+}
+ 
+.detail h1{
+    height: 230px;
+    width: 700px;
+    font-size: 55px;
+    overflow: hidden;
+}
+
+.detail h4{
+    height: 62px;
+    width: 450px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+ .circle{
+
+     position: absolute;
+    height: 830px;
+    width: 800px;
+    right: -160px;
+    background: #FFF8F5;
+    border-radius: 50%;
+    top: 170px;
+    z-index: -2;
+} 
+
+.people{
+    position: absolute;
+    width: 680px;
+    overflow: hidden;
+    right: -90px;
+    top: 90px;
+    z-index: -1;
+   
+    /* left: 793px;
+    top: 158px;
+    border-radius: 0px; */
+}
+
+
+
+/*===================MEDIA QUERIES (MEDIUM DEVICE) =======================*/
+
+@media screen and (max-width: 1024px) {
+    .container-banner{
+        position: relative;
+        
+    
+        width: 60%;
+        height: 811px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+
+/*===================MEDIA QUERIES (SMALL DEVICE) =======================*/
+
+@media screen and (max-width: 600px) {
+
+    .container-banner{
+        width: 60%;
+        height: 911px;
+       
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50rem;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+
+    .detail h1{
+        height: 30px;
+        width: 400px;
+        font-size: 30px;
+        overflow: hidden;
+    }
+    
+    .detail h4{
+        height: 62px;
+        width: 450px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+    .section2{
+        margin-top: 1000px;
+        
+    }
+    .circle,
+    .people{
+        bottom: 500px;
+    }
+
+
+}

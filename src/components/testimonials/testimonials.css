@@ -1,0 +1,42 @@
+.yeah{
+    z-index: 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 100px 0;
+
+}
+ .side-1 > .name{
+    margin-top: 30px;
+    font-weight: 500;
+}
+.loc-type{
+    width: 200px;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+.type{
+    padding: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.394);
+    text-align: center;
+    border-radius: 4px;
+    background: #EEF8FF;
+    color: #0D019A;
+    font-size: 13px;
+}
+.vendor{
+    background: #F0FFEE;
+    color: #049A01;
+}
+
+.picture{
+    width: 200px;
+    height: 200px;
+}
+.body{
+    width: 260px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+}

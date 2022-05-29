@@ -1,0 +1,109 @@
+.logo{
+    box-sizing: border-box;
+    display: flex;
+    gap: .5rem;
+}
+.logo-container{
+    background: url(../../assets/logo/Vector.png);
+    width: 34.5px;
+    height: 35px;
+    position: relative;
+}
+
+ .logo-b{
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    width: 17.71px;
+    height: 24.91px;
+}
+.logo-w{
+    position: absolute;
+    left: 16px;
+    top: 5px;
+    width: 11.8px;
+    height: 28.62;
+}
+
+.name{
+    display: flex;
+}
+.name h2{
+    margin-top: 7px;
+}
+p{
+    align-self: center;
+    height: 5px;
+    color: #EE3C24;
+    margin-bottom: 3px;   
+}
+.container-header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.navigation ul{
+   display: flex;
+   gap: 40px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: #FF5C00;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn-log{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+
+/*===================MEDIA QUERIES (MEDIUM DEVICE) =======================*/
+
+@media screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+        margin: 10px;
+    }
+
+    .navigation{
+        display: none;
+    }
+   
+}
+
+
+/*===================MEDIA QUERIES (SMALL DEVICE) =======================*/
+
+@media screen and (max-width: 600px) {
+
+    .container{
+        width: var(--container-width-sm);
+        margin: 10px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+}
